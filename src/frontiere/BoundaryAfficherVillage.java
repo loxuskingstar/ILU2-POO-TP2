@@ -11,8 +11,8 @@ public class BoundaryAfficherVillage {
 	}
 
 	public void afficherVillage() {
-		String nomVillage = controlAfficherVillage.donnerNomVillage();
-		String[] donneesVillage = controlAfficherVillage.donnerNomsVillageois();
+		String nomVillage = controlAfficherVillage.donnerNomVillage(); // Nom village
+		String[] donneesVillage = controlAfficherVillage.donnerNomsVillageois(); // Nom villageois
 		System.out.println("Bienvenue dans " + nomVillage
 				+ " dirigé par le chef " + donneesVillage[0] + ".");
 		System.out.println("Ce village possède un joli marché avec "
